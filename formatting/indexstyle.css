@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.headerbackground {
+    background-color: #1f2937;
+    width: 100%;
+    padding: 50px 80px; /* Gives nice spacing inside the blue section */
+    
+    display: flex;
+    /* Changed to row so left side and right side sit next to each other */
+    flex-direction: row; 
+    /* Shoots the text group to the far left, and image to the far right */
+    justify-content: space-between; 
+    /* Centers them perfectly from top to bottom */
+    align-items: center; 
+}
+
+/* A brand new helper rule to stack the text and button vertically */
+.left-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.headertext {
+    font-family: roboto, sans-serif;
+    font-size: 48px;
+    color: #ebebeb;
+    font-weight: 900;
+    /* margin-left: 10px; */
+    /* margin-top: 50px; */
+    margin-bottom: 30px;
+}
+
+.smalltext {
+    font-family: roboto, sans-serif;
+    font-size: 18px;
+    color: #dedede;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.headbutton {
+    width: 120px;
+    height: 35px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    /* margin-left: 10px; */
+    margin-top: 30px;
+    color: #dedede;
+    border: 1.5px solid #cbcbcb;
+}
+
+.placeholdercontainer {
+    background-color: #cec4c4;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.placeholdertext {
+    font-family: roboto;
+    color:#48494a ;
+    font-size: 18px;
+    padding-top: 80px;
+}
+
+.headbuttontxt {
+    font-family: roboto, sans-serif;
+    font-size: 18px;
+    color: #dedede;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
